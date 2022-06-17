@@ -1,10 +1,30 @@
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>잡동사니</title>
+    <script language="JavaScript">
+        var SetTime = 1;
+        function timer(){
+            msg = "인내심은 나의 힘..!";
+            SetTime--;
+            if (SetTime<0){
+                clearInterval(tid);
+                document.all.Answer.innerHTML = "<a href = './profile/profile.html'>" + msg + "</a>";
+                alert("탈출에 성공하셨습니다~ 축하드립니다~");
+            }
+        }
+        window.onload = function TimerStart(){ tid=setInterval('timer()', 1000) };
+    </script>
 </head>
 <body>
-  <p>Hello, World!</p>
+    <p>안녕하세요</p>
+    <p>Zer0의 개인 블로그입니다</p>
+    <p>방탈출을 좋아하는 분들을 위해 간단한 선물을 준비해두었습니다</p>
+    <p>다음은 퀴즈입니다.</p>
+    <p>Q1. 당신은 사람인가요?<br>
+    <pre>  <a href="./1/1.html">1. 갑자기 무슨 소리죠?</a><br>  <a href="./2/2.html">2. 글쎄요..</a><br>  <a href="./3/3.html">3. 하하...</a><br></pre>
+    </p>
+    <div id="Answer"></div>
 </body>
 </html>

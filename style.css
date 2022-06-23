@@ -88,7 +88,7 @@ article p{
 
 div nav ul li{
   list-style:none;
-  text-align:center;
+  text-align:left;
   margin-bottom:10px;
 }
 
@@ -99,4 +99,68 @@ nav p{
 
 div nav ul li a{
   text-decoration:none;
+}
+
+div header ul li{
+  list-style:none;
+  float:left;
+  border-right:1px solid burlywood;
+  padding-left:30px;
+  padding-right:30px;
+  color:black;
+}
+
+div header ul li:hover{
+  color:crimson;
+}
+
+div header ul{
+  overflow:hidden;
+  display:table;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+div header ul li:first-child{
+  border-left:2px solid burlywood;
+  border-radius:5px 0 0 5px;
+}
+
+div header ul li:last-child{
+  border-left:2px solid burlywood;
+  border-radius:0 5px 5px 0;
+}
+
+#maintop{
+  margin-top:50px;
+  text-align:center;
+  font-size=40px;
+  line-height:50px;
+  margin-left:40px;
+}
+
+footer ul{
+  overflow:hidden;
+  display:table;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+footer li{
+  list-style:none;
+  float:left;
+  border-right:1px solid burlywood;
+  padding-left:30px;
+  padding-right:30px;
+  color:black;
+}
+
+footer li:first-child{
+  border-left:2px solid burlywood;
+  border-radius:5px 0 0 5px;
+}
+
+footer li:last-child{
+  border-left:2px solid burlywood;
+  border-radius:0px 5px 5px 0;
 }

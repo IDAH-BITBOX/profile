@@ -5,24 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>잡동사니 블로그</title>
-    <script language="JavaScript">
-        var SetTime=100;
-        function timer(){
-            msg = "열심히 구르면서, 마음만큼은 확실하게 기다리면서 고민하자.";
-            SetTime--;
-            
-            if (SetTime==60){
-                alert("과연 열심히 구르기만해서 성장이 될까...?");
-            }
-            
-            if (SetTime<0){
-                clearInterval(tid);
-                alert("길고 긴 고민 끝에 내린 결론은..");
-                document.all.Answer.innerHTML = "<a href = 'https://idah.notion.site/Profile-97b1ef1a1b674bec8c635cda3cb80989'>" + msg + "</a>";
-            }
-        }
-        window.onload = function TimerStart(){ tid=setInterval('timer()', 1000) };
-    </script>
 </head>
 <body>
     <div id = "board">

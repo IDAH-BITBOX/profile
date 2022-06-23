@@ -1,17 +1,75 @@
 <html lang="ko">
 <head>
+<link rel="stylesheet" type="text/css" href="../style.css">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>잡동사니</title>
+    <title>잡동사니 블로그</title>
+    <script language="JavaScript">
+        var SetTime=100;
+        function timer(){
+            msg = "열심히 구르면서, 마음만큼은 확실하게 기다리면서 고민하자.";
+            SetTime--;
+            
+            if (SetTime==60){
+                alert("과연 열심히 구르기만해서 성장이 될까...?");
+            }
+            
+            if (SetTime<0){
+                clearInterval(tid);
+                alert("길고 긴 고민 끝에 내린 결론은..");
+                document.all.Answer.innerHTML = "<a href = 'https://idah.notion.site/Profile-97b1ef1a1b674bec8c635cda3cb80989'>" + msg + "</a>";
+            }
+        }
+        window.onload = function TimerStart(){ tid=setInterval('timer()', 1000) };
+    </script>
 </head>
 <body>
-    <p>안녕하세요</p>
-    <p>Zer0의 개인 블로그입니다</p>
-    <p>방탈출을 좋아하는 분들을 위해 간단한 선물을 준비해두었습니다</p>
-    <p>다음은 퀴즈입니다.</p>
-    <p>Q2. 글쎄요..<br>
-    <pre>  <a href="./1/1.html">1. 답답하네요</a><br>  <a href="./2/2.html">2. 글쎄요..</a><br>  <a href="./3/3.html">3. 하하...</a><br></pre>
-    </p>
-    <p>누군가 말했다.<br>쓸데 없는 의문은 좋지 않은거라고.</p>
+    <div id = "board">
+        <div id = "wapper">
+            <!--헤더시작-->
+            <div id="maintop">Zer0</div>
+            <h4> 안녕하세요. Zer0의 개인 블로그입니다.</h4>
+            <header>
+                <ul>
+                    <li>자기소개</li>
+                    <li>일기</li>
+                    <li>고찰</li>
+                    <li>자기계발</li>
+                </ul>
+            </header>
+            <!--네비게이션-->
+            <div id="left_board">
+                <nav>
+                    <p>개인 프로필</p>
+                    <ul>
+                        
+                    </ul>
+                </nav>
+            <!--콘텐츠부분-->
+            <!--section:여러 중심내용 감싸기-->
+            <section>
+                <p>방탈출</p>
+                <article>
+                    <p>방탈출을 좋아하는 분들을 위해 간단한 선물을 준비해두었습니다</p>
+                    <p>다음은 퀴즈입니다.</p>
+                    <p>Q2. 글쎄요..<br>
+                    <pre>  <a href="./1/1.html">1. 답답하네요</a><br>  <a href="./2/2.html">2. 글쎄요..</a><br>  <a href="./3/3.html">3. 하하...</a><br></pre>
+                    </p>
+                    <p>누군가 말했다.<br>쓸데 없는 의문은 좋지 않은거라고.</p>
+                </article>
+            </section>
+            </div>
+            <!--풋터-->
+            <footer>
+                <ul>
+                    <li>후원 문의 : limsejin88@khu.ac.kr</li>
+                    <li>연구실 위치 : 경희대학교 스페이스21관</li>
+                </ul>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
+© 2022 GitHub, Inc.
+Term

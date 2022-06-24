@@ -33,6 +33,14 @@ div#wapper{
   margin:0 auto;
 }
 
+div#Answer{
+  width:90%;
+  margin-left:20px;
+  list-style:none;
+  overflow:hidden;
+  line-height:10px;
+}
+
 header, footer, nav, section{
   margin:5px;
   padding:10px;

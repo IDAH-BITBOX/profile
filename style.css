@@ -13,14 +13,22 @@ body {
   margin:0 auto;
 }
 
-#board{
+div#maintop{
+  margin-top:50px;
+  text-align:center;
+  font-size=40px;
+  line-height:50px;
+  margin-left:40px;
+}
+
+div#board{
   background-color:(0.9,0.9,0.9);
   margin:0 auto;
   height:100%;
   width:100%;
 }
 
-#board1{
+div#board1{
   margin:0 auto;
   height:50%;
   width:100%;
@@ -133,14 +141,6 @@ div header ul{
   display:table;
   margin-left:auto;
   margin-right:auto;
-}
-
-#maintop{
-  margin-top:50px;
-  text-align:center;
-  font-size=40px;
-  line-height:50px;
-  margin-left:40px;
 }
 
 footer ul{

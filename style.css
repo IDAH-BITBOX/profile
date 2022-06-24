@@ -16,8 +16,8 @@ body {
 div#maintop{
   margin-top:50px;
   text-align:center;
-  font-size=40px;
-  line-height:50px;
+  font-size=100px;
+  line-height:200px;
   margin-left:40px;
 }
 
@@ -95,7 +95,7 @@ article{
   margin-left:20px;
   list-style:none;
   overflow:hidden;
-  line-height:10px;
+  line-height:20px;
 }
 
 article p{

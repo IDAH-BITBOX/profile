@@ -104,7 +104,8 @@ article p{
 }
 
 article pre{
-  text-align:center;
+  margin-left:30%;
+  text-align:left;
   line-height:20px;
 }
 

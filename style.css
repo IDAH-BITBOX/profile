@@ -23,6 +23,7 @@ div#maintop{
 
 div#board{
   background-color:white;
+  font-size:large;
   margin:0 auto;
   height:100%;
   width:100%;
@@ -30,6 +31,7 @@ div#board{
 
 div#board1{
   margin:0 auto;
+  font-size:medium;
   height:100%;
   width:100%;
 }

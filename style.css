@@ -86,6 +86,11 @@ article p{
   text-align:center;
 }
 
+article pre{
+  margin-left:10px;
+  text-align:left;
+}
+
 div nav ul li{
   list-style:none;
   text-align:left;

@@ -16,7 +16,7 @@ body {
 div#maintop{
   margin-top:30px;
   text-align:center;
-  fontsize=large;
+  font-size=large;
   line-height:30px;
   margin-left:40px;
 }

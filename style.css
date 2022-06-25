@@ -38,7 +38,7 @@ div#board1{
 div#wapper{
   width:90%;
   text-align:center;
-  min-height:300px;
+  min-height:400px;
   margin:0 auto;
 }
 
@@ -47,7 +47,7 @@ div#Answer{
   margin-left:20px;
   list-style:none;
   overflow:hidden;
-  line-height:10px;
+  line-height:20px;
 }
 
 header, footer, nav, section{
@@ -63,7 +63,7 @@ header{
 
 section{
   float:left;
-  height:50%;
+  height:70%;
   width:100%;
 }
 
@@ -96,7 +96,7 @@ article{
   margin-left:20px;
   list-style:none;
   overflow:hidden;
-  line-height:20px;
+  line-height:15px;
 }
 
 article p{
@@ -106,7 +106,7 @@ article p{
 article pre{
   margin-left:30%;
   text-align:left;
-  line-height:20px;
+  line-height:15px;
 }
 
 div nav ul li{
